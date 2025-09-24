@@ -1,0 +1,28 @@
+# Build Verzeichnisse
+/build/
+/build-*/
+
+# Editor Dateien
+.vscode/
+.idea/
+*.swp
+*~
+
+# Binäre Dateien
+*.bin
+*.elf
+*.hex
+*.uf2
+*.map
+*.dis
+
+# Abhängigkeiten
+/pico-sdk/
+
+# Betriebssystem Dateien
+.DS_Store
+Thumbs.db
+
+# Temporäre Dateien
+*.log
+*.tmp

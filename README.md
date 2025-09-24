@@ -1,12 +1,42 @@
-# PicoCalc---CalcOS
-🛠️ Calcos – A Hacker’s Firmware for the PicoCalc Calcos turns your ClockworkPi PicoCalc into a stealthy hacking platform.
-Run USB Rubber Ducky payloads, automate keystrokes, and control everything via a minimalistic UI on a pocket-sized device.
+# ArithOS - Pentesting Tool for PicoCalc
 
-💻 Built for the RP2040
-🎯 USB HID payload injection
-🔧 Modular payload support
-🧠 Button-controlled menu system
+A disguised hacking firmware for PicoCalc hardware. Looks like a calculator, but is actually a complete pentesting toolkit.
 
-“Disguised as a calculator. Operates like a weapon.”
+## Features
 
-⚠️ For educational use and authorized penetration testing only.
+- **Cover Apps:** Calculator, Stopwatch
+- **Hacking Tools:**
+  - WiFi Scanner (finds networks in range)
+  - Packet Sniffer (captures WLAN packets)
+  - WiFi Bruteforce (cracks passwords)
+  - BadUSB (automated keyboard inputs)
+- **Development:**
+  - Code Editor with syntax highlighting
+  - File Browser
+
+## Hardware
+
+- Raspberry Pi Pico
+- 240x240 Display
+- 4x4 Keypad
+- ESP8266/ESP32 for WiFi
+
+## Build & Flash
+
+```bash
+# Set SDK path
+export PICO_SDK_PATH=/path/to/pico-sdk
+
+# Build
+./build.sh
+
+# Flash: Hold BOOTSEL and copy arithmos.uf2 to RPI-RP2
+```
+
+## Warning
+
+Only use for legitimate security testing with explicit permission!
+
+## License
+
+MIT
