@@ -21,17 +21,19 @@ A disguised hacking firmware for PicoCalc hardware. Looks like a calculator, but
 - 4x4 Keypad
 - ESP8266/ESP32 for WiFi
 
-## Build & Flash
+## Quick Start
 
-```bash
-# Set SDK path
-export PICO_SDK_PATH=/path/to/pico-sdk
+**New to ArithOS?** Start here: [QUICK_START.md](QUICK_START.md)
 
-# Build
-./build.sh
+**Need to build?** See: [INSTALL.md](INSTALL.md)
 
-# Flash: Hold BOOTSEL and copy arithmos.uf2 to RPI-RP2
-```
+**Ready to flash?** See: [FLASH_GUIDE.md](FLASH_GUIDE.md)
+
+## Documentation
+
+- **[QUICK_START.md](QUICK_START.md)** - Get started quickly
+- **[INSTALL.md](INSTALL.md)** - Installation & Build
+- **[FLASH_GUIDE.md](FLASH_GUIDE.md)** - Flash firmware
 
 ## Warning
 

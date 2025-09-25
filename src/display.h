@@ -1,6 +1,10 @@
 #pragma once
 #include <stdint.h>
 
+// Display dimensions
+#define DISPLAY_WIDTH     320
+#define DISPLAY_HEIGHT    240
+
 #define COLOR_BLACK       0x0000
 #define COLOR_WHITE       0xFFFF
 #define COLOR_RED         0xF800

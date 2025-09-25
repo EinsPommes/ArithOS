@@ -1,28 +1,47 @@
-# Build Verzeichnisse
-/build/
-/build-*/
+# Build artifacts
+build/
+*.elf
+*.bin
+*.uf2
+*.map
+*.hex
 
-# Editor Dateien
+# IDE files
 .vscode/
 .idea/
 *.swp
+*.swo
 *~
 
-# Binäre Dateien
-*.bin
-*.elf
-*.hex
-*.uf2
-*.map
-*.dis
-
-# Abhängigkeiten
-/pico-sdk/
-
-# Betriebssystem Dateien
+# OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Temporäre Dateien
-*.log
+# Temporary files
 *.tmp
+*.temp
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ARM toolchain (if downloaded locally)
+gcc-arm-none-eabi-*/
+arm-toolchain.cmake
+arm-toolchain.zip
+
+# Pico SDK (should be separate repo)
+pico-sdk/
+
+# Backup files
+*.bak
+*.backup

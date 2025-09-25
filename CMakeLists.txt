@@ -38,4 +38,4 @@ target_link_libraries(arithmos
 
 pico_enable_stdio_usb(arithmos 0)
 pico_enable_stdio_uart(arithmos 1)
-pico_add_extra_outputs(arithmos)
+# pico_add_extra_outputs(arithmos)  # Temporarily disabled to avoid picotool issues
