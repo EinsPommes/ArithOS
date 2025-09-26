@@ -6,11 +6,16 @@
 #include "keys.h"
 #include "display.h"
 #include "apps/app.h"
+#include "boot_animation.h"
 
 int main() {
     stdio_init_all();
     
     display_init();
+    
+    // Show boot animation
+    show_boot_animation();
+    
     keys_init();
     app_manager_init();
     

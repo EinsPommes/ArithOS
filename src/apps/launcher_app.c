@@ -52,7 +52,7 @@ static void launcher_render(app_t* app) {
     launcher_data_t* data = (launcher_data_t*)app->app_data;
     
     display_fill_rect(0, 0, DISPLAY_WIDTH, 40, COLOR_DARKGRAY);
-    display_draw_text_aligned(DISPLAY_WIDTH / 2, 15, "CalcOS", FONT_LARGE, ALIGN_CENTER, COLOR_WHITE);
+    display_draw_text_aligned(DISPLAY_WIDTH / 2, 15, "ArithOS", FONT_LARGE, ALIGN_CENTER, COLOR_WHITE);
     
     int app_count = app_manager_get_app_count();
     
