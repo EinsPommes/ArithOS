@@ -25,24 +25,5 @@
 #define ESP_UART_TX   16
 #define ESP_UART_RX   17
 
-// Display dimensions
-#define DISPLAY_WIDTH  240
-#define DISPLAY_HEIGHT 240
-
-// Key definitions
-#define KEY_0       0x00
-#define KEY_1       0x01
-#define KEY_2       0x02
-#define KEY_3       0x03
-#define KEY_4       0x04
-#define KEY_5       0x05
-#define KEY_6       0x06
-#define KEY_7       0x07
-#define KEY_8       0x08
-#define KEY_9       0x09
-#define KEY_PLUS    0x0A
-#define KEY_MINUS   0x0B
-#define KEY_MULT    0x0C
-#define KEY_DIV     0x0D
-#define KEY_EQUAL   0x0E
-#define KEY_CLEAR   0x0F
+// Display dimensions - moved to display.h to avoid conflicts
+// Key definitions - moved to keys.h to avoid conflicts

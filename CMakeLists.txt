@@ -9,6 +9,8 @@ add_executable(arithmos
   src/board_pins.h
   src/keys.c
   src/display.c
+  src/ui.c
+  src/boot_animation.c
   src/apps/app_manager.c
   src/apps/launcher_app.c
   src/apps/calculator_app.c

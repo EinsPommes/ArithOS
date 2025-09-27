@@ -16,7 +16,9 @@
 #define KEY_PLUS      10
 #define KEY_MINUS     11
 #define KEY_MULTIPLY  12
+#define KEY_MULT      12  
 #define KEY_DIVIDE    13
+#define KEY_DIV       13  
 #define KEY_EQUAL     14
 #define KEY_DOT       15
 #define KEY_ENTER     16
